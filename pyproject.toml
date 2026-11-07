@@ -1,0 +1,19 @@
+[project]
+name = "sil-aeb"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "cantools>=40.7.1",
+    "matplotlib>=3.9.4",
+    "msgpack>=1.1.2",
+    "python-can>=4.6.1",
+]
+
+[project.scripts]
+sil-aeb = "sil_aeb:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
