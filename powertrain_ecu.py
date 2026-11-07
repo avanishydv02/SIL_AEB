@@ -33,7 +33,7 @@ from can_config import (
 # ===========================================================================
 # STARTING VARIABLES (Editable for Scenario Testing)
 # ===========================================================================
-INITIAL_VEHICLE_SPEED: float = 40.0  # Initial ego vehicle speed in m/s (Y)
+INITIAL_VEHICLE_SPEED: float = 25.0  # Initial ego vehicle speed in m/s (Y)
 
 logger = get_ecu_logger("POWERTRAIN_ECU")
 

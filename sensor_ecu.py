@@ -40,7 +40,7 @@ from can_config import (
 # ===========================================================================
 # STARTING VARIABLES (Editable for Scenario Testing)
 # ===========================================================================
-INITIAL_DISTANCE: float = 100.0  # Initial distance to obstacle in meters (X)
+INITIAL_DISTANCE: float = 200.0  # Initial distance to obstacle in meters (X)
 INITIAL_RELATIVE_SPEED: float = -15.0  # Baseline relative speed in m/s at 25 m/s
 
 logger = get_ecu_logger("SENSOR_ECU")
